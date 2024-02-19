@@ -1,0 +1,178 @@
+2024-02-19 20:37:06.955  INFO 14176 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 14176 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 20:37:06.961  INFO 14176 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 20:37:07.530  INFO 14176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 20:37:07.532  INFO 14176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 20:37:07.551  INFO 14176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-19 20:37:07.644  WARN 14176 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 20:37:07.949  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 20:37:07.957  INFO 14176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 20:37:07.957  INFO 14176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 20:37:08.044  INFO 14176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 20:37:08.044  INFO 14176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2024-02-19 20:37:08.698  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 20:37:08.706  INFO 14176 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.199 seconds (JVM running for 2.92)
+2024-02-19 20:37:11.484  INFO 14176 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 20:37:11.484  INFO 14176 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 20:37:11.485  INFO 14176 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19 20:51:40.139  INFO 14128 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 14128 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 20:51:40.143  INFO 14128 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 20:51:40.767  INFO 14128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 20:51:40.769  INFO 14128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 20:51:40.787  INFO 14128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 20:51:40.892  WARN 14128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 20:51:41.281  INFO 14128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 20:51:41.288  INFO 14128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 20:51:41.288  INFO 14128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 20:51:41.384  INFO 14128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 20:51:41.384  INFO 14128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1204 ms
+2024-02-19 20:51:42.271  INFO 14128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 20:51:42.280  INFO 14128 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.61 seconds (JVM running for 3.507)
+2024-02-19 20:51:55.785  INFO 14128 --- [http-nio-11111-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 20:51:55.786  INFO 14128 --- [http-nio-11111-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 20:51:55.786  INFO 14128 --- [http-nio-11111-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19 20:58:10.319  INFO 17256 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 17256 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 20:58:10.322  INFO 17256 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 20:58:11.041  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 20:58:11.043  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 20:58:11.071  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-02-19 20:58:11.199  WARN 17256 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 20:58:11.602  INFO 17256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 20:58:11.611  INFO 17256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 20:58:11.612  INFO 17256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 20:58:11.706  INFO 17256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 20:58:11.706  INFO 17256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1342 ms
+2024-02-19 20:58:12.651  INFO 17256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 20:58:12.661  INFO 17256 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.843 seconds (JVM running for 3.674)
+2024-02-19 20:58:39.851  INFO 17256 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 20:58:39.852  INFO 17256 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 20:58:39.853  INFO 17256 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 20:58:39.888  WARN 17256 --- [http-nio-11111-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.simple.entity.ReBody org.simple.controller.UserController.login(org.simple.entity.User)]
+2024-02-19 20:59:17.431  INFO 17720 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 17720 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 20:59:17.434  INFO 17720 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 20:59:18.045  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 20:59:18.048  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 20:59:18.074  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 20:59:18.194  WARN 17720 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 20:59:18.623  INFO 17720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 20:59:18.632  INFO 17720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 20:59:18.632  INFO 17720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 20:59:18.730  INFO 17720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 20:59:18.730  INFO 17720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1262 ms
+2024-02-19 20:59:19.534  INFO 17720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 20:59:19.544  INFO 17720 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.614 seconds (JVM running for 3.491)
+2024-02-19 20:59:24.743  INFO 17720 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 20:59:24.743  INFO 17720 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 20:59:24.744  INFO 17720 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 21:26:05.777  INFO 13568 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 13568 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:26:05.781  INFO 13568 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:26:06.311  INFO 13568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:26:06.313  INFO 13568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:26:06.330  INFO 13568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:26:06.415  WARN 13568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:26:06.730  INFO 13568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:26:06.738  INFO 13568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:26:06.738  INFO 13568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:26:06.824  INFO 13568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:26:06.824  INFO 13568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1005 ms
+2024-02-19 21:26:07.525  INFO 13568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:26:07.533  INFO 13568 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.174 seconds (JVM running for 2.992)
+2024-02-19 21:26:36.499  INFO 13568 --- [http-nio-11111-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:26:36.499  INFO 13568 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:26:36.500  INFO 13568 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 21:28:21.522  INFO 3288 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 3288 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:28:21.525  INFO 3288 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:28:22.073  INFO 3288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:28:22.074  INFO 3288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:28:22.091  INFO 3288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:28:22.175  WARN 3288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:28:22.489  INFO 3288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:28:22.495  INFO 3288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:28:22.496  INFO 3288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:28:22.581  INFO 3288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:28:22.582  INFO 3288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2024-02-19 21:28:23.282  INFO 3288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:28:23.289  INFO 3288 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.253 seconds (JVM running for 3.004)
+2024-02-19 21:28:41.200  INFO 3288 --- [http-nio-11111-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:28:41.200  INFO 3288 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:28:41.201  INFO 3288 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 21:31:12.718  INFO 18856 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 18856 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:31:12.720  INFO 18856 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:31:13.282  INFO 18856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:31:13.284  INFO 18856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:31:13.301  INFO 18856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:31:13.388  WARN 18856 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:31:13.746  INFO 18856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:31:13.754  INFO 18856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:31:13.754  INFO 18856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:31:13.838  INFO 18856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:31:13.839  INFO 18856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-02-19 21:31:14.539  INFO 18856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:31:14.547  INFO 18856 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.207 seconds (JVM running for 2.918)
+2024-02-19 21:31:23.627  INFO 18856 --- [http-nio-11111-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:31:23.627  INFO 18856 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:31:23.628  INFO 18856 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 21:33:39.926  INFO 15920 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 15920 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:33:39.928  INFO 15920 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:33:40.438  INFO 15920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:33:40.440  INFO 15920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:33:40.457  INFO 15920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:33:40.545  WARN 15920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:33:40.858  INFO 15920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:33:40.865  INFO 15920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:33:40.866  INFO 15920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:33:40.955  INFO 15920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:33:40.955  INFO 15920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
+2024-02-19 21:33:41.644  INFO 15920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:33:41.651  INFO 15920 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.114 seconds (JVM running for 2.822)
+2024-02-19 21:33:45.322  INFO 15920 --- [http-nio-11111-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:33:45.323  INFO 15920 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:33:45.323  INFO 15920 --- [http-nio-11111-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19 21:34:44.187  WARN 15920 --- [http-nio-11111-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'uuid' for method parameter type String is not present]
+2024-02-19 21:40:36.106  INFO 3152 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 3152 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:40:36.108  INFO 3152 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:40:36.643  INFO 3152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:40:36.645  INFO 3152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:40:36.662  INFO 3152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:40:36.749  WARN 3152 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:40:37.081  INFO 3152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:40:37.089  INFO 3152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:40:37.090  INFO 3152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:40:37.181  INFO 3152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:40:37.181  INFO 3152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2024-02-19 21:40:37.906  INFO 3152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:40:37.915  INFO 3152 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.214 seconds (JVM running for 2.908)
+2024-02-19 21:40:43.587  INFO 3152 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:40:43.588  INFO 3152 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:40:43.588  INFO 3152 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19 21:46:07.748  INFO 12708 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 12708 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:46:07.751  INFO 12708 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:46:08.294  INFO 12708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:46:08.296  INFO 12708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:46:08.315  INFO 12708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:46:08.406  WARN 12708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:46:08.753  INFO 12708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:46:08.760  INFO 12708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:46:08.761  INFO 12708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:46:08.846  INFO 12708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:46:08.847  INFO 12708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2024-02-19 21:46:09.584  INFO 12708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:46:09.592  INFO 12708 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.25 seconds (JVM running for 2.953)
+2024-02-19 21:46:11.552  INFO 12708 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:46:11.553  INFO 12708 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:46:11.554  INFO 12708 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19 21:50:43.817  INFO 9604 --- [main] org.simple.DemoApplication               : Starting DemoApplication using Java 1.8.0_372 on DESKTOP-EAR6J55 with PID 9604 (C:\Users\yxl17\IdeaProjects\ChenChen\target\classes started by yxl17 in C:\Users\yxl17\IdeaProjects\ChenChen)
+2024-02-19 21:50:43.820  INFO 9604 --- [main] org.simple.DemoApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-02-19 21:50:44.337  INFO 9604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19 21:50:44.339  INFO 9604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19 21:50:44.357  INFO 9604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-02-19 21:50:44.453  WARN 9604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.simple]' package. Please check your configuration.
+2024-02-19 21:50:44.787  INFO 9604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11111 (http)
+2024-02-19 21:50:44.795  INFO 9604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19 21:50:44.796  INFO 9604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-02-19 21:50:44.883  INFO 9604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19 21:50:44.883  INFO 9604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2024-02-19 21:50:45.576  INFO 9604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11111 (http) with context path ''
+2024-02-19 21:50:45.583  INFO 9604 --- [main] org.simple.DemoApplication               : Started DemoApplication in 2.164 seconds (JVM running for 2.92)
+2024-02-19 21:50:48.285  INFO 9604 --- [http-nio-11111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19 21:50:48.286  INFO 9604 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19 21:50:48.287  INFO 9604 --- [http-nio-11111-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
