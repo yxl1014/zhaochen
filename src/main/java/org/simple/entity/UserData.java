@@ -17,4 +17,6 @@ public class UserData {
     private String uuid;
     private String dataName;
     private byte[] data;
+    // 0、为保存 1、保存 2、公开 3、copy不允许公开
+    private int state;
 }

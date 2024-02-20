@@ -14,5 +14,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ReBody {
+    private int code;
     private Object msg;
+
+    public ReBody(Object msg) {
+        this.msg = msg;
+    }
 }

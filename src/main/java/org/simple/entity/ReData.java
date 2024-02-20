@@ -18,4 +18,5 @@ import java.util.Map;
 public class ReData {
     private Map<String,Object[]> xAxis;
     private List<Object> entity;
+    private Integer state;
 }
