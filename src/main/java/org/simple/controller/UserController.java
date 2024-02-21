@@ -55,7 +55,7 @@ public class UserController {
 
         ReData reData = new ReData();
         HashMap<String, Object[]> map = new HashMap<>();
-        map.put("sheetName", excelBuilder.getSheetName().toArray());
+        map.put("sheetName", excelBuilder.getSheetName("Test").toArray());
         map.put("top", excelBuilder.getTopData().toArray());
         map.put("length", excelBuilder.getLength().toArray());
         reData.setXAxis(map);

@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -76,7 +77,7 @@ public class UserServiceImpl implements IUserService {
 
         ReData reData = new ReData();
         HashMap<String, Object[]> map = new HashMap<>();
-        map.put("sheetName", excelBuilder.getSheetName().toArray());
+        map.put("sheetName", excelBuilder.getSheetName(filename).toArray());
         map.put("top", excelBuilder.getTopData().toArray());
         map.put("length", excelBuilder.getLength().toArray());
         reData.setXAxis(map);
@@ -98,7 +99,7 @@ public class UserServiceImpl implements IUserService {
             return null;
         }
 
-        UserData userData = new UserData(dataUuid, filename.split("\\.")[0], data, 0);
+        UserData userData = new UserData(dataUuid, filename.split("\\.")[0], data, 0, new Timestamp(System.currentTimeMillis()));
         int ok = userDataMapper.insertData(userData);
         return ok == 1 ? dataUuid : null;
     }
@@ -134,6 +135,8 @@ public class UserServiceImpl implements IUserService {
             String s = new String(data.getData(), StandardCharsets.UTF_8);
             ReData reData = gson.fromJson(s, ReData.class);
             reData.setState(data.getState());
+            reData.setCreateTime(data.getCreateTime());
+            reData.setName(data.getDataName());
             reDataList.add(reData);
         }
 
@@ -147,6 +150,8 @@ public class UserServiceImpl implements IUserService {
         for (UserData data : userData) {
             String s = new String(data.getData(), StandardCharsets.UTF_8);
             ReData reData = gson.fromJson(s, ReData.class);
+            reData.setCreateTime(data.getCreateTime());
+            reData.setName(data.getDataName());
             reDataList.add(reData);
         }
 

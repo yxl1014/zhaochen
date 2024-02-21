@@ -20,8 +20,8 @@ public interface UserDataMapper {
      * @param data 数据
      * @return 成功条数
      */
-    @Insert("insert into user_data(uuid,dataName,data,state) " +
-            "values(#{uuid},#{dataName},#{data},#{state})")
+    @Insert("insert into user_data(uuid,dataName,data,state,createTime) " +
+            "values(#{uuid},#{dataName},#{data},#{state},#{createTime})")
     int insertData(UserData data);
 
     /**

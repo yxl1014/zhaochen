@@ -4,8 +4,6 @@ import org.apache.poi.ss.usermodel.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
@@ -87,7 +85,7 @@ public class ExcelBuilder {
         return length;
     }
 
-    public List<String> getSheetName() {
+    public List<String> getSheetName(String fileName) {
         ArrayList<String> name = new ArrayList<>();
         for (int sheetNum = 0; sheetNum < workbook.getNumberOfSheets(); sheetNum++) {
             Sheet sheet = workbook.getSheetAt(sheetNum);
@@ -95,7 +93,7 @@ public class ExcelBuilder {
             if (sheet == null) {
                 continue;
             }
-            name.add(sheet.getSheetName());
+            name.add(fileName + "-"+sheet.getSheetName());
         }
         return name;
     }
