@@ -137,6 +137,7 @@ public class UserServiceImpl implements IUserService {
             reData.setState(data.getState());
             reData.setCreateTime(data.getCreateTime());
             reData.setName(data.getDataName());
+            reData.setUid(data.getUuid());
             reDataList.add(reData);
         }
 
@@ -152,6 +153,7 @@ public class UserServiceImpl implements IUserService {
             ReData reData = gson.fromJson(s, ReData.class);
             reData.setCreateTime(data.getCreateTime());
             reData.setName(data.getDataName());
+            reData.setUid(data.getUuid());
             reDataList.add(reData);
         }
 
@@ -172,7 +174,7 @@ public class UserServiceImpl implements IUserService {
         if (userData == null) {
             return false;
         }
-        if (state == 2 && userData.getState() == 3) {
+        if (state == 2 && (userData.getState() == 3 || userData.getState() == 0)) {
             return false;
         }
         int ok = userDataMapper.updateDataStateByUuid(state, dataUuid);
@@ -218,5 +220,43 @@ public class UserServiceImpl implements IUserService {
         }
 
         return userDataMapper.deleteDataByUuid(dataUuid) == 1;
+    }
+
+    @Override
+    public List<ReData> findUserData(String userUuid, String name) {
+        User user = userMapper.findUserByUuid(userUuid);
+        if (user == null) {
+            return null;
+        }
+
+        List<UserData> userData = userDataMapper.selectDatasByUuidAndName(userUuid, name);
+        List<ReData> reDataList = new ArrayList<>();
+        for (UserData data : userData) {
+            String s = new String(data.getData(), StandardCharsets.UTF_8);
+            ReData reData = gson.fromJson(s, ReData.class);
+            reData.setState(data.getState());
+            reData.setCreateTime(data.getCreateTime());
+            reData.setName(data.getDataName());
+            reData.setUid(data.getUuid());
+            reDataList.add(reData);
+        }
+
+        return reDataList;
+    }
+
+    @Override
+    public List<ReData> findAllData(String name) {
+        List<UserData> userData = userDataMapper.selectAllDataByStateAndName(2, name);
+        List<ReData> reDataList = new ArrayList<>();
+        for (UserData data : userData) {
+            String s = new String(data.getData(), StandardCharsets.UTF_8);
+            ReData reData = gson.fromJson(s, ReData.class);
+            reData.setCreateTime(data.getCreateTime());
+            reData.setName(data.getDataName());
+            reData.setUid(data.getUuid());
+            reDataList.add(reData);
+        }
+
+        return reDataList;
     }
 }

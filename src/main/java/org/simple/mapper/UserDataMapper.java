@@ -64,9 +64,29 @@ public interface UserDataMapper {
     /**
      * 查询数据
      *
+     * @param uuid 数据
+     * @param name 数据
+     * @return 数据
+     */
+    @Select("select * from user_data join u_d u on user_data.uuid = u.dataId and u.userId = #{uuid} and dataName like '% #{name}%'")
+    List<UserData> selectDatasByUuidAndName(@Param("uuid") String uuid, @Param("name") String name);
+
+    /**
+     * 查询数据
+     *
      * @param state 数据
      * @return 数据
      */
     @Select("select * from user_data where state = #{state}")
     List<UserData> selectAllDataByState(@Param("state") int state);
+
+    /**
+     * 查询数据
+     *
+     * @param state 数据
+     * @param name 数据
+     * @return 数据
+     */
+    @Select("select * from user_data where state = #{state} and dataName like '% #{name}%'")
+    List<UserData> selectAllDataByStateAndName(@Param("state") int state, @Param("name") String name);
 }

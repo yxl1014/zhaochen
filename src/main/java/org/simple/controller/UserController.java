@@ -169,6 +169,21 @@ public class UserController {
         return new ReBody(0, ok);
     }
 
+    /**
+     * 查询用户数据
+     *
+     * @param userUuid 用户id
+     */
+    @GetMapping("/findUserData")
+    public ReBody findUserData(@RequestParam("userUuid") String userUuid,@RequestParam("name")String name) {
+        if (userUuid.isEmpty()) {
+            return new ReBody(-1, null);
+        }
+
+        List<ReData> ok = userService.findUserData(userUuid,name);
+        return new ReBody(0, ok);
+    }
+
 
     /**
      * 获取公开的所有数据
@@ -176,6 +191,15 @@ public class UserController {
     @GetMapping("/listAllData")
     public ReBody listAllData() {
         List<ReData> ok = userService.listAllData();
+        return new ReBody(0, ok);
+    }
+
+    /**
+     * 查询公开的所有数据
+     */
+    @GetMapping("/findAllData")
+    public ReBody findAllData(@RequestParam("name")String name) {
+        List<ReData> ok = userService.findAllData(name);
         return new ReBody(0, ok);
     }
 

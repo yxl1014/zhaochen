@@ -96,4 +96,19 @@ public interface IUserService {
      * @return 成功
      */
     boolean deleteData(String userUuid, String dataUuid);
+
+    /**
+     * 查询
+     * @param userUuid uuid
+     * @param name name
+     * @return 数据
+     */
+    List<ReData> findUserData(String userUuid, String name);
+
+    /**
+     * 查询
+     * @param name name
+     * @return 数据
+     */
+    List<ReData> findAllData(String name);
 }

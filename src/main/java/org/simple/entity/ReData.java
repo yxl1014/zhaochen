@@ -22,4 +22,5 @@ public class ReData {
     private Integer state;
     private Timestamp createTime;
     private String name;
+    private String uid;
 }
