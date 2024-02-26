@@ -196,7 +196,7 @@ public class UserServiceImpl implements IUserService {
         userData.setState(3);
         udMapper.insertUd(new UD(userUuid, dataId));
         userDataMapper.insertData(userData);
-        return null;
+        return dataId;
     }
 
     @Override

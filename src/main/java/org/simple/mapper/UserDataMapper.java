@@ -68,7 +68,7 @@ public interface UserDataMapper {
      * @param name 数据
      * @return 数据
      */
-    @Select("select * from user_data join u_d u on user_data.uuid = u.dataId and u.userId = #{uuid} and dataName like '% #{name}%'")
+    @Select("select * from user_data where state = #{state} and dataName like  concat('%',#{name},'%')")
     List<UserData> selectDatasByUuidAndName(@Param("uuid") String uuid, @Param("name") String name);
 
     /**
